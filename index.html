@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eRecycle — Enhanced Framework Flowchart (Canada → Nigeria)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0b0f19;
+            --bg-card: #111827;
+            --bg-hover: #1a2332;
+            --green: #10b981;
+            --green-glow: rgba(16, 185, 129, 0.12);
+            --blue: #3b82f6;
+            --blue-glow: rgba(59, 130, 246, 0.12);
+            --amber: #f59e0b;
+            --amber-glow: rgba(245, 158, 11, 0.10);
+            --purple: #a78bfa;
+            --purple-glow: rgba(167, 139, 250, 0.10);
+            --red: #ef4444;
+            --red-glow: rgba(239, 68, 68, 0.10);
+            --cyan: #22d3ee;
+            --text: #f1f5f9;
+            --text2: #94a3b8;
+            --text3: #64748b;
+            --border: rgba(148, 163, 184, 0.10);
+            --line: rgba(148, 163, 184, 0.18);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: auto;
+        }
+
+        /* ── Header ── */
+        .header {
+            text-align: center;
+            padding: 48px 40px 20px;
+        }
+
+        .header .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--green-glow);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--green);
+            margin-bottom: 16px;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 900;
+            letter-spacing: -0.03em;
+            margin-bottom: 8px;
+        }
+
+        .header h1 span {
+            background: linear-gradient(135deg, var(--green), var(--blue), var(--purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header p {
+            color: var(--text2);
+            font-size: 0.92rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* ── Scope Note ── */
+        .scope-note {
+            max-width: 820px;
+            margin: 16px auto 8px;
+            background: rgba(245, 158, 11, 0.06);
+            border: 1px solid rgba(245, 158, 11, 0.18);
+            border-radius: 10px;
+            padding: 14px 20px;
+            font-size: 0.78rem;
+            color: var(--amber);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .scope-note .icon {
+            font-size: 1rem;
+            min-width: 20px;
+        }
+
+        /* ── Flowchart Container ── */
+        .flowchart {
+            max-width: 1200px;
+            margin: 32px auto 60px;
+            padding: 0 32px;
+        }
+
+        /* ── Phase Section ── */
+        .phase {
+            position: relative;
+            margin-bottom: 12px;
+        }
+
+        .phase-bar {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px 24px;
+            border-radius: 14px;
+            cursor: pointer;
+            transition: all 0.25s;
+            border: 1px solid var(--border);
+        }
+
+        .phase-bar:hover {
+            background: var(--bg-hover);
+        }
+
+        .phase-number {
+            width: 38px;
+            height: 38px;
+            min-width: 38px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 0.9rem;
+        }
+
+        .phase-number.p1 {
+            background: var(--green-glow);
+            color: var(--green);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .phase-number.p2 {
+            background: var(--blue-glow);
+            color: var(--blue);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        .phase-number.p3 {
+            background: var(--amber-glow);
+            color: var(--amber);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .phase-number.p4 {
+            background: var(--purple-glow);
+            color: var(--purple);
+            border: 1px solid rgba(167, 139, 250, 0.3);
+        }
+
+        .phase-number.p5 {
+            background: var(--red-glow);
+            color: var(--red);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .phase-number.p6 {
+            background: rgba(34, 211, 238, 0.10);
+            color: var(--cyan);
+            border: 1px solid rgba(34, 211, 238, 0.3);
+        }
+
+        .phase-info {
+            flex: 1;
+        }
+
+        .phase-info h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+        }
+
+        .phase-info .sub {
+            font-size: 0.78rem;
+            color: var(--text3);
+            margin-top: 2px;
+        }
+
+        .phase-location {
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 5px 12px;
+            border-radius: 6px;
+        }
+
+        .loc-ca {
+            background: rgba(239, 68, 68, 0.1);
+            color: #f87171;
+        }
+
+        .loc-transit {
+            background: rgba(245, 158, 11, 0.1);
+            color: var(--amber);
+        }
+
+        .loc-ng {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--green);
+        }
+
+        .phase-toggle {
+            font-size: 1.2rem;
+            color: var(--text3);
+            transition: transform 0.3s;
+            min-width: 24px;
+            text-align: center;
+        }
+
+        .phase.open .phase-toggle {
+            transform: rotate(90deg);
+        }
+
+        /* ── Phase Content ── */
+        .phase-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        .phase.open .phase-content {
+            max-height: 2000px;
+        }
+
+        .phase-inner {
+            padding: 4px 24px 24px 76px;
+        }
+
+        /* ── Connector ── */
+        .connector {
+            display: flex;
+            justify-content: center;
+            padding: 4px 0;
+        }
+
+        .connector .arrow {
+            width: 2px;
+            height: 28px;
+            background: var(--line);
+            position: relative;
+        }
+
+        .connector .arrow::after {
+            content: '▼';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.6rem;
+            color: var(--text3);
+        }
+
+        /* ── Flow Nodes ── */
+        .flow-row {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            margin-bottom: 14px;
+        }
+
+        .flow-node {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            flex: 1;
+            min-width: 200px;
+            transition: all 0.25s;
+        }
+
+        .flow-node:hover {
+            transform: translateY(-2px);
+            border-color: rgba(255, 255, 255, 0.12);
+            background: var(--bg-hover);
+        }
+
+        .flow-node h5 {
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .flow-node .items {
+            font-size: 0.78rem;
+            color: var(--text2);
+            line-height: 1.6;
+        }
+
+        .flow-node .items li {
+            list-style: none;
+            padding-left: 16px;
+            position: relative;
+        }
+
+        .flow-node .items li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--text3);
+            font-size: 0.7rem;
+        }
+
+        /* ── Decision Diamond ── */
+        .decision-row {
+            display: flex;
+            justify-content: center;
+            margin: 14px 0;
+        }
+
+        .decision {
+            background: var(--bg-card);
+            border: 2px solid var(--amber);
+            border-radius: 12px;
+            padding: 18px 28px;
+            text-align: center;
+            position: relative;
+            max-width: 480px;
+        }
+
+        .decision h5 {
+            color: var(--amber);
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .decision p {
+            font-size: 0.78rem;
+            color: var(--text2);
+            line-height: 1.5;
+        }
+
+        /* ── Split Paths ── */
+        .split-container {
+            display: flex;
+            gap: 14px;
+            margin: 14px 0;
+        }
+
+        .split-path {
+            flex: 1;
+            border-radius: 12px;
+            padding: 18px;
+            border: 1px solid var(--border);
+        }
+
+        .split-path h5 {
+            font-size: 0.82rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .split-path .items {
+            font-size: 0.78rem;
+            color: var(--text2);
+            line-height: 1.7;
+            list-style: none;
+        }
+
+        .split-path .items li {
+            padding-left: 16px;
+            position: relative;
+        }
+
+        .split-path .items li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            font-size: 0.7rem;
+        }
+
+        .path-green {
+            background: rgba(16, 185, 129, 0.04);
+        }
+
+        .path-green h5 {
+            color: var(--green);
+        }
+
+        .path-green li::before {
+            color: var(--green);
+        }
+
+        .path-blue {
+            background: rgba(59, 130, 246, 0.04);
+        }
+
+        .path-blue h5 {
+            color: var(--blue);
+        }
+
+        .path-blue li::before {
+            color: var(--blue);
+        }
+
+        .path-amber {
+            background: rgba(245, 158, 11, 0.04);
+        }
+
+        .path-amber h5 {
+            color: var(--amber);
+        }
+
+        .path-amber li::before {
+            color: var(--amber);
+        }
+
+        .path-red {
+            background: rgba(239, 68, 68, 0.04);
+        }
+
+        .path-red h5 {
+            color: var(--red);
+        }
+
+        .path-red li::before {
+            color: var(--red);
+        }
+
+        .path-purple {
+            background: rgba(167, 139, 250, 0.04);
+        }
+
+        .path-purple h5 {
+            color: var(--purple);
+        }
+
+        .path-purple li::before {
+            color: var(--purple);
+        }
+
+        .path-cyan {
+            background: rgba(34, 211, 238, 0.04);
+        }
+
+        .path-cyan h5 {
+            color: var(--cyan);
+        }
+
+        .path-cyan li::before {
+            color: var(--cyan);
+        }
+
+        /* ── Grade Badges ── */
+        .grade {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 700;
+        }
+
+        .grade-a {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--green);
+        }
+
+        .grade-b {
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--blue);
+        }
+
+        .grade-c {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--amber);
+        }
+
+        .grade-x {
+            background: rgba(239, 68, 68, 0.18);
+            color: var(--red);
+        }
+
+        /* ── Key/Legend ── */
+        .legend {
+            max-width: 1200px;
+            margin: 0 auto 48px;
+            padding: 0 32px;
+        }
+
+        .legend-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 24px 28px;
+            display: flex;
+            gap: 32px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .legend-title {
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text3);
+            min-width: 60px;
+        }
+
+        .legend-items {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.78rem;
+            color: var(--text2);
+        }
+
+        .legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 3px;
+        }
+
+        /* ── Regulatory Callout ── */
+        .reg-callout {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--red);
+            border-radius: 0 10px 10px 0;
+            padding: 14px 18px;
+            margin: 14px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .reg-callout .icon {
+            font-size: 1rem;
+            min-width: 20px;
+        }
+
+        .reg-callout .text {
+            font-size: 0.78rem;
+            color: var(--text2);
+            line-height: 1.55;
+        }
+
+        .reg-callout .text strong {
+            color: var(--text);
+        }
+
+        /* ── Footer ── */
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: var(--text3);
+            font-size: 0.75rem;
+            border-top: 1px solid var(--border);
+        }
+
+        @media print {
+            body {
+                background: white;
+                color: #1a1a1a;
+            }
+
+            .phase.open .phase-content {
+                max-height: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ══════ HEADER ══════ -->
+    <div class="header">
+        <div class="badge">♻️ Enhanced Framework v2.0 — February 2026</div>
+        <h1><span>Canada → Nigeria</span> UEEE Framework</h1>
+        <p>End-to-end flowchart for the compliant cross-border management of Used Electrical & Electronic Equipment —
+            from Best Buy store shelf to final disposition.</p>
+    </div>
+
+    <div class="scope-note">
+        <span class="icon">⚠️</span>
+        <div><strong>Scope Note:</strong> Upstream data destruction is handled by certified partners in Canada. This
+            framework covers collection, sorting, export compliance, cross-border logistics, import clearance, and value
+            recovery operations. Hazardous items (Grade X) never leave Canada.</div>
+    </div>
+
+    <!-- ══════ LEGEND ══════ -->
+    <div class="legend">
+        <div class="legend-box">
+            <span class="legend-title">Key</span>
+            <div class="legend-items">
+                <div class="legend-item"><span class="grade grade-a">A</span> Reusable — Export for resale</div>
+                <div class="legend-item"><span class="grade grade-b">B</span> Repairable — Export for refurbishment
+                </div>
+                <div class="legend-item"><span class="grade grade-c">C</span> Parts — Controlled disassembly</div>
+                <div class="legend-item"><span class="grade grade-x">X</span> Hazardous — Stays in Canada</div>
+            </div>
+            <div class="legend-items">
+                <div class="legend-item"><span class="legend-dot" style="background:var(--red);"></span> Canada</div>
+                <div class="legend-item"><span class="legend-dot" style="background:var(--amber);"></span> In Transit
+                </div>
+                <div class="legend-item"><span class="legend-dot" style="background:var(--green);"></span> Nigeria</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══════ FLOWCHART ══════ -->
+    <div class="flowchart">
+
+        <!-- ═══ PHASE 1: SOURCE CHANNELS ═══ -->
+        <div class="phase open" onclick="this.classList.toggle('open')">
+            <div class="phase-bar">
+                <div class="phase-number p1">1</div>
+                <div class="phase-info">
+                    <h3>Source Channels — E-Waste Collection Points</h3>
+                    <div class="sub">Where the UEEE originates in Canada</div>
+                </div>
+                <span class="phase-location loc-ca">🇨🇦 Canada</span>
+                <span class="phase-toggle">▶</span>
+            </div>
+            <div class="phase-content">
+                <div class="phase-inner">
+                    <div class="flow-row">
+                        <div class="flow-node">
+                            <h5>🏪 Retail Take-Back Programs</h5>
+                            <ul class="items">
+                                <li>Best Buy in-store drop-off (primary)</li>
+                                <li>Consumer returns & end-of-life devices</li>
+                                <li>Trade-in program eligible devices</li>
+                                <li>TVs, laptops, desktops, microwaves, ACs</li>
+                                <li>Small electronics, cables, peripherals</li>
+                            </ul>
+                        </div>
+                        <div class="flow-node">
+                            <h5>🏛️ Institutional Decommissioning</h5>
+                            <ul class="items">
+                                <li>Government department refresh cycles</li>
+                                <li>University & research lab equipment</li>
+                                <li>Hospital & healthcare facility devices</li>
+                                <li>Enterprise IT bulk decommission</li>
+                            </ul>
+                        </div>
+                        <div class="flow-node">
+                            <h5>📡 Telecom & Corporate</h5>
+                            <ul class="items">
+                                <li>Corporate device refresh (Bell, Rogers, etc.)</li>
+                                <li>Customer device recovery programs</li>
+                                <li>Network equipment retirement</li>
+                                <li>Data center hardware decommission</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector">
+            <div class="arrow"></div>
+        </div>
+
+        <!-- ═══ PHASE 2: SORTING & CLASSIFICATION ═══ -->
+        <div class="phase open" onclick="this.classList.toggle('open')">
+            <div class="phase-bar">
+                <div class="phase-number p2">2</div>
+                <div class="phase-info">
+                    <h3>Sorting, Testing & Classification</h3>
+                    <div class="sub">Every item inspected, tested, graded, and documented</div>
+                </div>
+                <span class="phase-location loc-ca">🇨🇦 Canada</span>
+                <span class="phase-toggle">▶</span>
+            </div>
+            <div class="phase-content">
+                <div class="phase-inner">
+                    <div class="flow-node" style="margin-bottom:14px;">
+                        <h5>🔍 6-Point Inspection Protocol</h5>
+                        <ul class="items">
+                            <li><strong>Power-On Test</strong> — Device must boot to OS / power indicator</li>
+                            <li><strong>Core Functionality</strong> — Screen, keyboard, ports, WiFi, motor (appliances)
+                            </li>
+                            <li><strong>Safety Inspection</strong> — No swollen/leaking batteries, no exposed wires, no
+                                cracks</li>
+                            <li><strong>Cosmetic Assessment</strong> — Physical condition scoring (1-5 scale)</li>
+                            <li><strong>Photo Documentation</strong> — Timestamped photos of each item,
+                                front/back/serial</li>
+                            <li><strong>Identity Logging</strong> — Serial number, make, model, year, category recorded
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="decision-row">
+                        <div class="decision">
+                            <h5>⟐ CLASSIFICATION DECISION GATE</h5>
+                            <p>Based on the 6-point inspection, each item is classified into one of four grades. This
+                                classification determines the item's entire downstream path.</p>
+                        </div>
+                    </div>
+
+                    <div class="split-container">
+                        <div class="split-path path-green">
+                            <h5><span class="grade grade-a">A</span> Reusable</h5>
+                            <ul class="items">
+                                <li>Fully functional</li>
+                                <li>Good cosmetic condition</li>
+                                <li>Less than 5 years old</li>
+                                <li>→ Export for direct resale</li>
+                            </ul>
+                        </div>
+                        <div class="split-path path-blue">
+                            <h5><span class="grade grade-b">B</span> Repairable</h5>
+                            <ul class="items">
+                                <li>Minor issues only</li>
+                                <li>Fixable with &lt;$30 in parts</li>
+                                <li>Core functions intact</li>
+                                <li>→ Export for refurbishment</li>
+                            </ul>
+                        </div>
+                        <div class="split-path path-amber">
+                            <h5><span class="grade grade-c">C</span> Parts Harvest</h5>
+                            <ul class="items">
+                                <li>Non-functional device</li>
+                                <li>Contains valuable components</li>
+                                <li>No hazardous materials</li>
+                                <li>→ Export for disassembly</li>
+                            </ul>
+                        </div>
+                        <div class="split-path path-red">
+                            <h5><span class="grade grade-x">X</span> Hazardous</h5>
+                            <ul class="items">
+                                <li>Damaged/swollen batteries</li>
+                                <li>ODS refrigerants (AC/fridge)</li>
+                                <li>Leaking, unsafe materials</li>
+                                <li>🚫 <strong>NEVER EXPORTED</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="reg-callout">
+                        <span class="icon">🛡️</span>
+                        <div class="text"><strong>Grade X Diversion Rule:</strong> All Grade X items are immediately
+                            diverted to a certified Canadian recycler (R2 or e-Stewards certified). They never enter the
+                            export pipeline. This is a legal and ethical non-negotiable under Basel Convention and
+                            NESREA regulations.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector">
+            <div class="arrow"></div>
+        </div>
+
+        <!-- ═══ PHASE 3: DATA DESTRUCTION & COMPLIANCE ═══ -->
+        <div class="phase open" onclick="this.classList.toggle('open')">
+            <div class="phase-bar">
+                <div class="phase-number p3">3</div>
+                <div class="phase-info">
+                    <h3>Data Destruction & Compliance Package</h3>
+                    <div class="sub">NIST 800-88 data wipe + full regulatory documentation assembly</div>
+                </div>
+                <span class="phase-location loc-ca">🇨🇦 Canada</span>
+                <span class="phase-toggle">▶</span>
+            </div>
+            <div class="phase-content">
+                <div class="phase-inner">
+                    <div class="flow-row">
+                        <div class="flow-node">
+                            <h5>🔒 Data Destruction (Grade A/B/C)</h5>
+                            <ul class="items">
+                                <li>NIST 800-88 compliant sanitization</li>
+                                <li>Software wipe: Clear → Purge → Verify</li>
+                                <li>Physical destruction for non-wiped drives</li>
+                                <li>Individual certificate per device</li>
+                                <li>Chain of custody documentation</li>
+                                <li>PIPEDA (Canadian privacy law) compliance</li>
+                            </ul>
+                        </div>
+                        <div class="flow-node">
+                            <h5>📋 Compliance Documentation Assembly</h5>
+                            <ul class="items">
+                                <li><strong>Basel PIC Permit</strong> — Filed with Environment Canada</li>
+                                <li><strong>UEEE Declaration</strong> — Item-level manifest with serial #s</li>
+                                <li><strong>Functionality Certificates</strong> — Per-item test results</li>
+                                <li><strong>CMR Document</strong> — Cargo Movement Requirement</li>
+                                <li><strong>NESREA Pre-Notification</strong> — Sent to Nigerian agency</li>
+                                <li><strong>Insurance Certificate</strong> — Full transit coverage</li>
+                                <li><strong>Ownership Transfer Docs</strong> — Legal chain of title</li>
+                                <li><strong>Importer Liability Declaration</strong> — Abdullahi signs</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="reg-callout">
+                        <span class="icon">⚖️</span>
+                        <div class="text"><strong>Basel Convention 2025 Amendment:</strong> As of January 2025, ALL
+                            e-waste exports (including non-hazardous) require Prior Informed Consent (PIC) from both
+                            exporting and importing countries. This permit must be obtained BEFORE any shipment leaves
+                            Canada. Filing timeline: 4-6 weeks before planned export date.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector">
+            <div class="arrow"></div>
+        </div>
+
+        <!-- ═══ PHASE 4: EXPORT LOGISTICS ═══ -->
+        <div class="phase open" onclick="this.classList.toggle('open')">
+            <div class="phase-bar">
+                <div class="phase-number p4">4</div>
+                <div class="phase-info">
+                    <h3>Export Logistics & Shipping</h3>
+                    <div class="sub">Packaging, containerization, and ocean freight to Nigeria</div>
+                </div>
+                <span class="phase-location loc-transit">🚢 In Transit</span>
+                <span class="phase-toggle">▶</span>
+            </div>
+            <div class="phase-content">
+                <div class="phase-inner">
+                    <div class="flow-row">
+                        <div class="flow-node">
+                            <h5>📦 Packaging & Palletizing</h5>
+                            <ul class="items">
+                                <li>Individual item wrapping (bubble/foam)</li>
+                                <li>Category-segregated pallets (TVs, laptops, etc.)</li>
+                                <li>Grade-separated sections within container</li>
+                                <li>Packing list matches UEEE Declaration exactly</li>
+                                <li>NESREA-compliant packaging standards</li>
+                            </ul>
+                        </div>
+                        <div class="flow-node">
+                            <h5>🚛 Domestic Transport</h5>
+                            <ul class="items">
+                                <li>Ottawa sorting facility → Port of Montreal</li>
+                                <li>Highway 417 → 40 (~2 hours)</li>
+                                <li>Bonded carrier with transit insurance</li>
+                                <li>CBSA export declaration at port</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flow-row">
+                        <div class="flow-node">
+                            <h5>🚢 Ocean Freight</h5>
+                            <ul class="items">
+                                <li>Port of Montreal → Tin Can Island Port, Lagos</li>
+                                <li>Transit time: 21-28 days (Atlantic route)</li>
+                                <li>Container: 20ft or 40ft FCL</li>
+                                <li>GPS tracking seal on container</li>
+                                <li>Marine insurance (full container value)</li>
+                                <li>Carrier: MSC / Maersk / CMA CGM</li>
+                            </ul>
+                        </div>
+                        <div class="flow-node">
+                            <h5>📡 Tracking & Monitoring</h5>
+                            <ul class="items">
+                                <li>GPS beacon activated at container seal</li>
+                                <li>Real-time location updates (AIS data)</li>
+                                <li>Temperature/humidity monitoring (if applicable)</li>
+                                <li>Tamper-evident seal verification at arrival</li>
+                                <li>Status updates to Best Buy weekly</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector">
+            <div class="arrow"></div>
+        </div>
+
+        <!-- ═══ PHASE 5: NIGERIA ARRIVAL & CLEARANCE ═══ -->
+        <div class="phase open" onclick="this.classList.toggle('open')">
+            <div class="phase-bar">
+                <div class="phase-number p5">5</div>
+                <div class="phase-info">
+                    <h3>Nigeria Arrival — Customs & NESREA Clearance</h3>
+                    <div class="sub">Port clearance, inspection, registration, and compliance verification</div>
+                </div>
+                <span class="phase-location loc-ng">🇳🇬 Nigeria</span>
+                <span class="phase-toggle">▶</span>
+            </div>
+            <div class="phase-content">
+                <div class="phase-inner">
+                    <div class="flow-row">
+                        <div class="flow-node">
+                            <h5>🛃 Customs Clearance</h5>
+                            <ul class="items">
+                                <li>Tin Can Island Port, Lagos</li>
+                                <li>Present UEEE import permit</li>
+                                <li>Submit full documentation package</li>
+                                <li>Customs broker facilitation</li>
+                                <li>Duty payment & assessment</li>
+                                <li>Timeline: 5-10 business days</li>
+                            </ul>
+                        </div>
+                        <div class="flow-node">
+                            <h5>🏛️ NESREA Oversight & Inspection</h5>
+                            <ul class="items">
+                                <li>NESREA port inspection team review</li>
+                                <li>Verify importer registration status</li>
+                                <li>Physical inspection: random sample of items</li>
+                                <li>Functionality spot-check on selected devices</li>
+                                <li>Documentation cross-reference</li>
+                                <li>Clearance certificate issued if compliant</li>
+                            </ul>
+                        </div>
+                        <div class="flow-node">
+                            <h5>📝 Record Logging</h5>
+                            <ul class="items">
+                                <li>NESREA shipment record entry</li>
+                                <li>EPRON registration confirmation</li>
+                                <li>Import volume logged for EPR tracking</li>
+                                <li>Arrival condition vs. departure documented</li>
+                                <li>Seal integrity verification</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="decision-row">
+                        <div class="decision">
+                            <h5>⟐ NESREA INSPECTION GATE</h5>
+                            <p>If ANY item fails inspection (non-functional, waste characteristics, missing docs), the
+                                entire container may be refused entry, fined (₦5,000,000+), or returned to origin. This
+                                is why pre-shipment testing is critical.</p>
+                        </div>
+                    </div>
+
+                    <div class="reg-callout">
+                        <span class="icon">🚨</span>
+                        <div class="text"><strong>Critical Risk Mitigation:</strong> Abdullahi's 7-year relationship
+                            with Nigerian customs and NESREA officials, combined with our pre-shipment 100% testing
+                            rate, dramatically reduces clearance friction. Every item arriving in Nigeria has already
+                            been proven functional in Canada with documentation.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector">
+            <div class="arrow"></div>
+        </div>
+
+        <!-- ═══ PHASE 6: VALUE RECOVERY ═══ -->
+        <div class="phase open" onclick="this.classList.toggle('open')">
+            <div class="phase-bar">
+                <div class="phase-number p6">6</div>
+                <div class="phase-info">
+                    <h3>Value Recovery — Refurbishment, Resale & Recycling</h3>
+                    <div class="sub">Three parallel streams based on device grade classification</div>
+                </div>
+                <span class="phase-location loc-ng">🇳🇬 Nigeria</span>
+                <span class="phase-toggle">▶</span>
+            </div>
+            <div class="phase-content">
+                <div class="phase-inner">
+                    <div class="flow-node" style="margin-bottom:14px;">
+                        <h5>🔄 Arrival Re-Inspection & Sorting</h5>
+                        <ul class="items">
+                            <li>Verify items against UEEE Declaration manifest</li>
+                            <li>Check for transit damage (compare departure photos)</li>
+                            <li>Confirm Grade A/B/C classification still valid</li>
+                            <li>Route items to appropriate value recovery stream</li>
+                        </ul>
+                    </div>
+
+                    <div class="split-container">
+                        <div class="split-path path-green">
+                            <h5>🏷️ <span class="grade grade-a">A</span> Refurbishment & Resale</h5>
+                            <ul class="items">
+                                <li>Quality assurance check</li>
+                                <li>Cosmetic cleaning & restoration</li>
+                                <li>Software reinstallation if needed</li>
+                                <li>Warranty sticker/certificate applied</li>
+                                <li>Sold to Nigerian retail market</li>
+                                <li>Consumer electronics dealers</li>
+                                <li>Corporate bulk buyers</li>
+                            </ul>
+                        </div>
+                        <div class="split-path path-purple">
+                            <h5>🔧 <span class="grade grade-b">B</span> Repair & Refurbish</h5>
+                            <ul class="items">
+                                <li>Diagnosis of specific fault</li>
+                                <li>Parts replacement / repair</li>
+                                <li>Full functionality re-test</li>
+                                <li>Upgraded to Grade A status</li>
+                                <li>Then routed to resale stream</li>
+                                <li>Higher margin after repair</li>
+                            </ul>
+                        </div>
+                        <div class="split-path path-amber">
+                            <h5>⚙️ <span class="grade grade-c">C</span> Parts Recovery</h5>
+                            <ul class="items">
+                                <li>Controlled disassembly</li>
+                                <li>PCB boards → precious metals</li>
+                                <li>Screens, RAM, drives harvested</li>
+                                <li>Working parts for repair stock</li>
+                                <li>Non-recoverable → NESREA recycler</li>
+                                <li>Material tracking documented</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="flow-node" style="margin-top:14px;">
+                        <h5>♻️ Hazardous Fraction Processing (Nigeria-side)</h5>
+                        <ul class="items">
+                            <li>Any hazardous materials discovered during disassembly (e.g., batteries inside Grade C
+                                items)</li>
+                            <li>Segregated: Batteries | CRTs | Damaged circuit boards</li>
+                            <li>Routed to <strong>NESREA-licensed recycling partners</strong> for environmentally sound
+                                treatment</li>
+                            <li>Certificate of proper disposal obtained and filed</li>
+                        </ul>
+                    </div>
+
+                    <div class="reg-callout">
+                        <span class="icon">📊</span>
+                        <div class="text"><strong>Reporting Loop:</strong> Every item's final disposition is recorded
+                            and reported back to the Canadian side. Best Buy receives a quarterly impact report showing:
+                            items processed by category, diversion rate, kg diverted from landfill, CO₂ equivalent
+                            saved, and revenue generated — proving the framework's effectiveness.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ══════ FOOTER ══════ -->
+    <div class="footer">
+        Project eRecycle — Enhanced Framework v2.0 — Carleton University MEng TIM Program — February 2026<br>
+        <span style="color:var(--text3);">Team: Sivan · Abdullahi · Alan · Ian · Ramzy · Brandon</span>
+    </div>
+
+    <script>
+        // All phases start open; clicking toggles
+        // Already handled by inline onclick
+    </script>
+</body>
+
+</html>

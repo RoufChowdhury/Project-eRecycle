@@ -1,0 +1,121 @@
+# Agent Log - Multi-Agent Team Awareness
+
+This file is shared across all agents working on this project.
+Each agent reads this on startup and appends entries after completing work.
+
+---
+
+## Agent Registry
+
+| Agent ID | Display Name | Platform | Primary Role | Status |
+| --- | --- | --- | --- | --- |
+| `AGT1-CC` | Claude Strategist | Claude Code (Opus) — Warp Terminal | Planning, architecture, review | Active |
+| `AGT2-AG` | Antigravity Claude | Claude Code (Opus) — Antigravity IDE | Site building, design iteration | Active |
+| `AGT3-CO` | Codex Engineer | OpenAI Codex — Antigravity IDE | Implementation, validation, handoff | Active |
+| `AGT4-CU` | Cursor Builder | Cursor AI | IDE edits and iteration | Inactive |
+| `AGT5-RS` | Reserved | TBD | Future agent slot | Reserved |
+
+Naming convention:
+- Agent ID format: `AGT<number>-<tool-abbrev>`
+- Display Name format: short role-based name for quick recognition
+
+## Tagging Standard
+
+Use agent tags when leaving comments in files or documenting ownership.
+
+In source files (`.ts`, `.tsx`, `.css`):
+```ts
+// [AGT3-CO | Codex Engineer] updated form submission logic
+/* [AGT1-CC | Claude Strategist] refactored architecture section */
+```
+
+In markdown / HTML:
+```html
+<!-- [AGT2-CU | Cursor Builder] updated section copy -->
+```
+
+## Log Entry Template
+
+```md
+### YYYY-MM-DD HH:MM - AGT?-?? (Display Name)
+
+**Files changed:** `file1`, `file2`
+
+**What was done:**
+- Item 1
+- Item 2
+
+**Context for next agent:** short handoff note
+```
+
+---
+
+## Log
+
+### 2026-02-15 19:45 - AGT1-CC (Claude Strategist)
+
+**Files changed:** `AGENT_LOG.md`
+
+**What was done:**
+- Established multi-agent registry and naming convention
+- Assigned `AGT1-CC` for Claude Code
+- Audited uncommitted changes from prior Cursor session
+
+**Context for next agent:** The working tree included broad rebranding and routing updates; verify before committing.
+
+### 2026-02-15 20:24 - AGT3-CO (Codex Engineer)
+
+**Files changed:** `AGENT_LOG.md`, `CLAUDE.md`, `.cursorrules`
+
+**What was done:**
+- Standardized agent identity system with fixed `Agent ID + Display Name`
+- Added explicit registry entry for Codex (`AGT3-CO | Codex Engineer`)
+- Unified logging template so all agents write entries in the same format
+
+**Context for next agent:** Use the registry names exactly in handoffs to avoid ambiguity across tools.
+
+### 2026-02-15 22:15 - AGT1-CC (Claude Strategist)
+
+**Files changed:** `.cursorrules`, `.agents/skills/erecycle-execution/SKILL.md`
+
+**What was done:**
+- Added "Key Context Files" section to `.cursorrules` so Cursor knows about `.team-profiles.md`, `PROJECT_ROADMAP.md`, `SUCCESS_ROADMAP.md`, compliance checklist, and `src/lib/data/`
+- Expanded "Use references" in Codex SKILL.md from 2 to 6 items covering the same context sources
+- Committed and pushed to main (`3763214`)
+
+**Context for next agent:** All agents now share awareness of the same 6 key context files. `.agents/` is gitignored so the SKILL.md update lives locally only. The legacy HTML files (`index.html`, `framework-flowchart/`, `pitch-deck/`, `unified-framework/`) were also deleted from git in this commit (they were already staged).
+
+<!-- [AGT1-CC] audit entry below -->
+### 2026-02-15 20:35 - AGT1-CC (Claude Strategist)
+
+**Files changed:** `AGENT_LOG.md`
+
+**What was done:**
+- Assigned `AGT2-AG` (Antigravity Claude) — the Claude Code extension running inside Antigravity IDE
+- Moved Cursor to `AGT4-CU` (currently inactive — no running process)
+- Read all 3 active Antigravity Claude Code sessions to understand full context
+
+**Audit of AGT2-AG sessions:**
+
+Session `f78faed7` (main, 4.8MB, 1561 lines):
+- Built the full Next.js site from an implementation plan
+- User said text was "washed out, barely visible" — fixed
+- User asked for a business website for Canada
+- Used frontend-design skill
+- User feedback: "Color combination, I didn't like... too simple and common, not expert creative work"
+- Researched "Premium B2B Executive Design: 7 Principles"
+
+Session `29d0006f` (1.4MB):
+- User asked to change theme to "classy and light themed"
+- Tried to deploy to cortexdev1.github.io/erecycle-business/
+- User: "Doesn't show anything" — deployment issues
+
+Session `7c1ecb04` (269KB):
+- Standardized agent config across tools
+- Updated `.cursorrules` and Codex skill config
+- Committed and pushed changes
+- Updated agent log and memory
+
+**Also found:** `AGT3-CO` (OpenAI Codex) is active in Antigravity, connected to `Casper123-alt/decision-expert-ai` repo
+
+**Context for next agent:** Sivan's main feedback is that the design needs to be more professional, creative, and premium — not generic. A light/classy theme was requested but deployment had issues.

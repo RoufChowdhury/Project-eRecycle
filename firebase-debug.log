@@ -1,0 +1,603 @@
+[debug] [2026-02-16T01:59:01.891Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T01:59:01.892Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T01:59:01.892Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T01:59:01.892Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T01:59:01.893Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:01.893Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:01.893Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:01.893Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:01.893Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T01:59:01.893Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T01:59:01.893Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:01.893Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:01.894Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T01:59:01.904Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T01:59:01.905Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T01:59:02.192Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T01:59:02.192Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T01:59:02.195Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.195Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.195Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.196Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.196Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.196Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.196Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.196Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.196Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.196Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.196Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.196Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.196Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.196Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.200Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.200Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.200Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.200Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.201Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.201Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.201Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.201Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.202Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.202Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.202Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.202Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.202Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.202Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.203Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.203Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.204Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.204Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.205Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.205Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.205Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T01:59:02.205Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.301Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T01:59:02.301Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T01:59:02.305Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.305Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.306Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.307Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.307Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.307Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.307Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.307Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.307Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.308Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.308Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.308Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.308Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.308Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.308Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.308Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.308Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.309Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.309Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.309Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.309Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.309Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.309Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.309Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T01:59:02.309Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.351Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T01:59:02.351Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.352Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.353Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.353Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.354Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.354Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.355Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.355Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.355Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.355Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.355Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.355Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.356Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.356Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.356Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.356Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.356Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.356Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.356Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.356Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.357Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.357Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.357Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T01:59:02.357Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.357Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T01:59:02.357Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T01:59:02.472Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T01:59:02.472Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T01:59:02.490Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com 200
+[debug] [2026-02-16T01:59:02.490Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.499Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T01:59:02.499Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.499Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2026-02-16T01:59:02.499Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.505Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T01:59:02.505Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.506Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T01:59:02.506Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.506Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com 200
+[debug] [2026-02-16T01:59:02.506Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.511Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T01:59:02.511Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.513Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com 200
+[debug] [2026-02-16T01:59:02.513Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.643Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T01:59:02.643Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T01:59:02.643Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T01:59:02.643Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T01:59:02.665Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com 200
+[debug] [2026-02-16T01:59:02.665Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.684Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com 200
+[debug] [2026-02-16T01:59:02.684Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.704Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T01:59:02.704Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.705Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2026-02-16T01:59:02.705Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.710Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2026-02-16T01:59:02.710Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.717Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T01:59:02.717Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.717Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com 200
+[debug] [2026-02-16T01:59:02.717Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/fcm.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.724Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T01:59:02.724Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.724Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com 200
+[debug] [2026-02-16T01:59:02.724Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.729Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T01:59:02.729Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.730Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com 200
+[debug] [2026-02-16T01:59:02.730Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.736Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T01:59:02.736Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.736Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com 200
+[debug] [2026-02-16T01:59:02.736Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/storage.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.741Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T01:59:02.741Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.742Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T01:59:02.742Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T01:59:02.742Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.742Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.742Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T01:59:02.743Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T01:59:02.743Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.743Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T01:59:02.743Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T01:59:02.743Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T01:59:02.743Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T01:59:02.743Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.743Z] Checked if tokens are valid: true, expires at: 1771210538979
+[debug] [2026-02-16T01:59:02.743Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T01:59:02.840Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T01:59:02.840Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T01:59:02.841Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T01:59:02.841Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T01:59:02.903Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T01:59:02.904Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T01:59:02.904Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T01:59:02.904Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:40:41.790Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:40:41.791Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:40:41.791Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:40:41.792Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:40:41.792Z] Checked if tokens are valid: false, expires at: 1771210538979
+[debug] [2026-02-16T02:40:41.792Z] Checked if tokens are valid: false, expires at: 1771210538979
+[debug] [2026-02-16T02:40:41.792Z] > refreshing access token with scopes: []
+[debug] [2026-02-16T02:40:41.793Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-16T02:40:41.793Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-16T02:40:41.804Z] Checked if tokens are valid: false, expires at: 1771210538979
+[debug] [2026-02-16T02:40:41.804Z] Checked if tokens are valid: false, expires at: 1771210538979
+[debug] [2026-02-16T02:40:41.804Z] > refreshing access token with scopes: []
+[debug] [2026-02-16T02:40:41.804Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-16T02:40:41.804Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-16T02:40:41.805Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:40:41.805Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:40:41.805Z] Checked if tokens are valid: false, expires at: 1771210538979
+[debug] [2026-02-16T02:40:41.805Z] Checked if tokens are valid: false, expires at: 1771210538979
+[debug] [2026-02-16T02:40:41.805Z] > refreshing access token with scopes: []
+[debug] [2026-02-16T02:40:41.805Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-16T02:40:41.805Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-16T02:40:41.938Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-16T02:40:41.938Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-16T02:40:41.949Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:40:41.950Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-16T02:40:41.950Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-16T02:40:41.960Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:40:41.961Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-16T02:40:41.961Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-16T02:40:41.971Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:40:42.146Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:40:42.146Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:40:42.149Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.149Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.149Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.149Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.149Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.149Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.153Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.153Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.154Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.154Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.154Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.154Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.154Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.154Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.155Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.155Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.156Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.156Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.156Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T02:40:42.156Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.165Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:40:42.165Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:40:42.169Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.169Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.169Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.170Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.170Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.170Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.171Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.171Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.171Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.171Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.171Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.171Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.171Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.171Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.172Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.172Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.172Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.172Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.172Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T02:40:42.172Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.173Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:40:42.173Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:40:42.173Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.173Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.173Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.173Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.173Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.173Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.174Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.174Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.174Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.174Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.174Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.174Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.174Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.174Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.174Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.174Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.175Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T02:40:42.175Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.175Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T02:40:42.175Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:40:42.417Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T02:40:42.417Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T02:40:42.453Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T02:40:42.453Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.453Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T02:40:42.453Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.469Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T02:40:42.469Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.471Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T02:40:42.471Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.588Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T02:40:42.589Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T02:40:42.589Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T02:40:42.589Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T02:40:42.641Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T02:40:42.642Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.645Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T02:40:42.645Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.651Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T02:40:42.651Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.653Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:40:42.653Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:40:42.653Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.653Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.653Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:40:42.654Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T02:40:42.654Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.656Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T02:40:42.656Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.675Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T02:40:42.676Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.682Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T02:40:42.682Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.682Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T02:40:42.682Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T02:40:42.683Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:40:42.683Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:40:42.683Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.683Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:40:42.683Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:40:42.806Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:40:42.806Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:40:42.806Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:40:42.807Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:40:42.829Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:40:42.829Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:40:42.830Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:40:42.830Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:42:11.259Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:42:11.261Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:42:11.262Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:42:11.262Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:42:11.263Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.264Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.264Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.264Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.264Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:42:11.265Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:42:11.265Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.265Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.265Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:42:11.278Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:42:11.279Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:42:11.450Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:42:11.450Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:42:11.453Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.453Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.453Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.453Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.453Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.453Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.457Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.457Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.457Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.457Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.457Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.457Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.458Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.458Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.458Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.458Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.458Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.458Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.459Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T02:42:11.459Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.491Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:42:11.491Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:42:11.495Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.495Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.495Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.495Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.495Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.495Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.497Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.497Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.497Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.497Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.497Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.497Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.498Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.498Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.498Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.498Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.499Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.499Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.499Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T02:42:11.499Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.506Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:42:11.506Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:42:11.507Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.507Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.507Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.507Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.507Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.507Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.508Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.508Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.508Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.508Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.508Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.508Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.508Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.508Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.508Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.508Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.509Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T02:42:11.509Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.509Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T02:42:11.509Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:42:11.700Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T02:42:11.700Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T02:42:11.726Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T02:42:11.727Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.727Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T02:42:11.727Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T02:42:11.742Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T02:42:11.742Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.742Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T02:42:11.742Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T02:42:11.745Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T02:42:11.745Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.751Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T02:42:11.751Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.752Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:42:11.752Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:42:11.752Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.752Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.752Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:42:11.753Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T02:42:11.753Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.758Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T02:42:11.758Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.758Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T02:42:11.758Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.766Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T02:42:11.766Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.774Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T02:42:11.774Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.774Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T02:42:11.774Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.779Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T02:42:11.779Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.784Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T02:42:11.784Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T02:42:11.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:42:11.785Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:42:11.785Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.785Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:42:11.785Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:42:11.918Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:42:11.918Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:42:11.918Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:42:11.918Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:42:11.921Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:42:11.921Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:42:11.921Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:42:11.921Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:52:19.271Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:52:19.273Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:52:19.273Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:52:19.273Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:52:19.273Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.273Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.273Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.274Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.274Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:52:19.274Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:52:19.274Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.274Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.274Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:52:19.285Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:52:19.286Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:52:19.488Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:52:19.488Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:52:19.491Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.491Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.491Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.492Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.492Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.492Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.496Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.496Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.496Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.496Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.496Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.496Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.497Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.497Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.497Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.497Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.497Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.497Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.498Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T02:52:19.498Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.508Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:52:19.508Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:52:19.513Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.513Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.513Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.513Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.513Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.513Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.515Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.515Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.515Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.515Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.515Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.515Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.516Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.516Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.517Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.517Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.517Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.517Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.517Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T02:52:19.517Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.540Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:52:19.540Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:52:19.541Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.541Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.541Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.541Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.541Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.541Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.542Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.542Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.542Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.542Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.542Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.542Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.543Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.543Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.543Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.543Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.543Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-16T02:52:19.543Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.544Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [none]
+[debug] [2026-02-16T02:52:19.544Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com  x-goog-user-project=erecycle-framework
+[debug] [2026-02-16T02:52:19.775Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T02:52:19.775Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T02:52:19.810Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T02:52:19.810Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:19.812Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T02:52:19.812Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:19.813Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T02:52:19.813Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:19.836Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T02:52:19.836Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:19.838Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:52:19.838Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:52:19.838Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.838Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:19.838Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:52:19.948Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T02:52:19.948Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T02:52:19.949Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com 403
+[debug] [2026-02-16T02:52:19.949Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseio.com [omitted]
+[debug] [2026-02-16T02:52:19.967Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:52:19.967Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:52:19.969Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:52:19.969Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:52:19.997Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T02:52:19.997Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:20.019Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-16T02:52:20.019Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:20.019Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T02:52:20.019Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:20.027Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-16T02:52:20.027Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:20.027Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T02:52:20.027Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:20.036Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com 200
+[debug] [2026-02-16T02:52:20.036Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:20.055Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T02:52:20.055Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:20.056Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:52:20.057Z] > authorizing via signed-in user (casperkite123@gmail.com)
+[debug] [2026-02-16T02:52:20.057Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:20.057Z] Checked if tokens are valid: true, expires at: 1771213240961
+[debug] [2026-02-16T02:52:20.057Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo [none]
+[debug] [2026-02-16T02:52:20.065Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-16T02:52:20.065Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/erecycle-framework/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-16T02:52:20.153Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo 200
+[debug] [2026-02-16T02:52:20.153Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/erecycle-framework/billingInfo {"name":"projects/erecycle-framework/billingInfo","projectId":"erecycle-framework","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-16T02:52:20.155Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-16T02:52:20.155Z] > authorizing via signed-in user (casperkite123@gmail.com)
