@@ -146,3 +146,16 @@ Session `7c1ecb04` (269KB):
 4. No .gitignore visible (should exclude .next/, out/, node_modules/, etc.)
 
 **Context for next agent:** The project has world-class planning documents but the actual Next.js implementation is missing. Priority is to rebuild src/ directory following MASTER_PROMPT architecture. Static HTML prototypes (index.html, agent-visualization.html) can serve as UI reference but need conversion to React/Next.js components with data-driven approach.
+
+### 2026-02-18 14:30 - AGT1-CC (Claude Strategist)
+
+**Files changed:** `.gitignore`
+
+**What was done:**
+- User asked about best way to save project files for reuse
+- Verified Git remote is configured: `https://github.com/RoufChowdhury/Project-eRecycle.git`
+- Created comprehensive `.gitignore` file (was previously missing — identified as critical issue #4)
+- Provided guidance on Git + GitHub workflow for multi-agent collaboration
+- Recommended hybrid strategy: Git for code/docs, iCloud for personal notes
+
+**Context for next agent:** Project now has proper .gitignore to prevent committing build artifacts, logs, and dependencies. Ready for clean commits going forward.
