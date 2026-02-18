@@ -143,43 +143,125 @@ Take from Project-eRecycle:
 
 ### **Recommended Folder Structure:**
 
+**Using your iCloud for cross-device sync:**
+
 ```
 ~/Library/Mobile Documents/com~apple~CloudDocs/Templates/
 ├── AI-Project-Starter/
-│   ├── README.md
-│   ├── MASTER_PROMPT.md
-│   ├── AGENT_LOG.md
-│   ├── CLAUDE.md
-│   └── package.json
-├── Multi-Agent-System/
-│   ├── AGENT_REGISTRY.md
-│   ├── COORDINATION_PROTOCOL.md
-│   └── LOGGING_FORMAT.md
-├── Next-Bun-Starter/
+│   ├── README.md (template)
+│   ├── MASTER_PROMPT.md (template)
+│   ├── AGENT_LOG.md (with registry)
+│   ├── CLAUDE.md (Bun preferences)
+│   ├── GIT_WORKFLOW.md (this guide)
+│   ├── package.json (with bun scripts)
 │   ├── tsconfig.json
-│   ├── next.config.ts
 │   ├── .gitignore
-│   └── bun.lockb
+│   └── next.config.ts
+├── Multi-Agent-System/
+│   ├── AGENT_REGISTRY.md (AGT1-CC, AGT2-AG format)
+│   ├── COORDINATION_PROTOCOL.md (handoff rules)
+│   └── LOGGING_FORMAT.md (session entry template)
+├── Next-Bun-Starter/
+│   ├── tsconfig.json (strict TypeScript)
+│   ├── next.config.ts (optimized Next.js)
+│   ├── .gitignore (comprehensive)
+│   ├── eslint.config.mjs
+│   ├── postcss.config.mjs
+│   └── package.json (Bun scripts)
 └── Research-Paper-Analyzer/
-    ├── SLR_TEMPLATE.md
-    ├── EVIDENCE_TRACKER.md
-    └── FRAMEWORK_EXTRACTOR.md
+    ├── SLR_TEMPLATE.md (systematic literature review)
+    ├── EVIDENCE_TRACKER.md (source tracking)
+    └── FRAMEWORK_EXTRACTOR.md (mechanism extraction)
 ```
 
-**How to use:**
+**Quick Setup Script:**
 ```bash
-# Start new project
-cp -r ~/Templates/AI-Project-Starter ~/new-project
+# Create template directory structure
+mkdir -p ~/Library/Mobile\ Documents/com~apple~CloudDocs/Templates/AI-Project-Starter
+
+# Alternative: Create alias for easier access
+alias templates='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Templates'
+# Add to ~/.zshrc to make permanent
+echo "alias templates='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Templates'" >> ~/.zshrc
+```
+
+**How to use templates:**
+```bash
+# Method 1: Quick copy with alias
+templates
+cp -r AI-Project-Starter ~/new-project
 cd ~/new-project
 
-# Find-replace project name
-find . -type f -exec sed -i '' 's/{{PROJECT_NAME}}/new-project/g' {} +
+# Method 2: Full path
+cp -r ~/Library/Mobile\ Documents/com~apple~CloudDocs/Templates/AI-Project-Starter ~/new-project
+cd ~/new-project
+
+# Find-replace project name (macOS sed syntax)
+# Note: -i '' is required on macOS (BSD sed), Linux uses -i without ''
+find . -type f -name "*.md" -exec sed -i '' 's/{{PROJECT_NAME}}/new-project/g' {} +
+find . -type f -name "*.json" -exec sed -i '' 's/{{PROJECT_NAME}}/new-project/g' {} +
 
 # Initialize git
 git init
 git add .
-git commit -m "Initial commit from AI-Project-Starter template"
+git commit -m "Initial commit from AI-Project-Starter template
+
+Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
+
+# Create GitHub repo and push
+gh repo create new-project --public --source=. --remote=origin
+git push -u origin main
 ```
+
+---
+
+## ⚡ Quick Start: Extract Your First Template (5 Minutes)
+
+**Do this RIGHT NOW to see immediate value:**
+
+### **Step 1: Create Template Directory**
+```bash
+# Create your template folder in iCloud
+mkdir -p ~/Library/Mobile\ Documents/com~apple~CloudDocs/Templates/AI-Project-Starter
+
+# Add alias for quick access (optional but recommended)
+echo "alias templates='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Templates'" >> ~/.zshrc
+source ~/.zshrc
+```
+
+### **Step 2: Extract Your First Template (AGENT_LOG.md)**
+```bash
+# Copy your excellent AGENT_LOG.md as a template
+cp /Users/Sivan/erecycle-business/Project-eRecycle/AGENT_LOG.md \
+   ~/Library/Mobile\ Documents/com~apple~CloudDocs/Templates/AI-Project-Starter/AGENT_LOG_TEMPLATE.md
+
+# Open it and replace project-specific content with placeholders
+# Change "Project eRecycle" → "{{PROJECT_NAME}}"
+# Keep the registry format and logging template intact
+```
+
+### **Step 3: Test Your Template**
+```bash
+# Create a test project
+mkdir ~/test-new-project
+cd ~/test-new-project
+
+# Copy template
+cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/Templates/AI-Project-Starter/AGENT_LOG_TEMPLATE.md \
+   AGENT_LOG.md
+
+# Replace placeholder
+sed -i '' 's/{{PROJECT_NAME}}/test-new-project/g' AGENT_LOG.md
+
+# Verify it looks good
+cat AGENT_LOG.md
+```
+
+**Congratulations!** You just created and used your first reusable template.
+
+**Time invested:** 5 minutes
+**Time saved on next project:** 30 minutes
+**ROI:** 6x immediately, compounds with each use
 
 ---
 
@@ -273,25 +355,39 @@ Before finishing any project, ask:
 
 ## 🎯 Action Plan for Project-eRecycle
 
-### **This Week:**
-1. ✅ Create `.gitignore` (done)
-2. ✅ Create `README.md` (done)
-3. ✅ Create `GIT_WORKFLOW.md` (done)
-4. ✅ Create `REUSABILITY_GUIDE.md` (this file)
-5. ⬜ Commit and push to GitHub
-6. ⬜ Mark repo as template
+### **This Week:** (2026-02-18)
+1. ✅ Create `.gitignore` (commit 87bfec6)
+2. ✅ Create `README.md` (commit 50b4f1c)
+3. ✅ Create `GIT_WORKFLOW.md` (commit 50b4f1c)
+4. ✅ Create `REUSABILITY_GUIDE.md` (commit 50b4f1c)
+5. ⬜ **NEXT:** Push to GitHub (`git push origin main`)
+6. ⬜ Mark repo as GitHub template (Settings → Template repository)
+7. ⬜ Create local template directory structure
+8. ⬜ Extract first templates to iCloud Templates folder
 
 ### **This Month:**
-1. ⬜ Build `src/` directory (Next.js app)
-2. ⬜ Extract reusable components to library
-3. ⬜ Document multi-agent system as standalone product
-4. ⬜ Create AI-Project-Starter template
+1. ⬜ Build `src/` directory (Next.js app) — **Priority #1**
+2. ⬜ Address evidence gaps (40+ unsourced claims in MASTER_PROMPT)
+3. ⬜ Extract reusable components to library
+4. ⬜ Document multi-agent system as standalone product
+5. ⬜ Create `~/Templates/AI-Project-Starter/` from this project
+6. ⬜ Create `~/Templates/Multi-Agent-System/` with protocols
+7. ⬜ Test template system by creating a new project from it
 
 ### **This Quarter:**
-1. ⬜ Publish multi-agent system as open source
-2. ⬜ Write blog post about documentation-driven development
-3. ⬜ Create video tutorial on multi-agent coordination
+1. ⬜ Publish multi-agent coordination system as open source
+2. ⬜ Write blog post: "Documentation-Driven Development with AI Agents"
+3. ⬜ Create video tutorial on multi-agent coordination (YouTube/LinkedIn)
 4. ⬜ Build portfolio showcasing reusable systems
+5. ⬜ Submit academic paper on AI-assisted project management (optional)
+6. ⬜ Speak at local tech meetup about multi-agent development
+
+### **Completed Today:** (2026-02-18)
+- ✅ Resolved Critical Issue #2 (README.md missing)
+- ✅ Resolved Critical Issue #4 (.gitignore missing)
+- ✅ Created comprehensive documentation framework
+- ✅ Established reusability extraction strategy
+- ✅ Git workflow formalized and documented
 
 ---
 
@@ -299,30 +395,127 @@ Before finishing any project, ask:
 
 ### **1. Version Your Templates**
 ```
-~/Templates/
-├── AI-Project-Starter-v1/
-├── AI-Project-Starter-v2/  ← Current
-└── AI-Project-Starter-v3/  ← Experimental
+~/Library/Mobile Documents/com~apple~CloudDocs/Templates/
+├── AI-Project-Starter-v1.0/         ← Original
+├── AI-Project-Starter-v2.0/         ← Current (2026-02-18)
+├── AI-Project-Starter-v2.1-beta/    ← Testing improvements
+└── Multi-Agent-System-v1.0/
+```
+
+**Why version?**
+- Keep working versions stable
+- Test improvements in beta versions
+- Rollback if new version doesn't work
+- Track evolution over time
+
+**Git for templates:**
+```bash
+# Make your template folder a git repo
+cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Templates/AI-Project-Starter
+git init
+git add .
+git commit -m "v1.0: Initial template extraction from Project-eRecycle"
+git tag v1.0
 ```
 
 ### **2. Keep a "Lessons Learned" Log**
 ```
-~/Templates/LESSONS_LEARNED.md
+~/Library/Mobile Documents/com~apple~CloudDocs/Templates/LESSONS_LEARNED.md
 
 ## 2026-02-18: .gitignore is Critical
 Always create .gitignore FIRST, not later.
 Saved 2 hours cleaning accidental node_modules commit.
+Template updated to include .gitignore at project start.
+
+## 2026-02-18: Multi-Agent Coordination Breakthrough
+AGENT_LOG.md format enables seamless handoffs between Claude, Cursor, Codex.
+Registry system prevents confusion about agent identities.
+Extracted as standalone template for all future projects.
+
+## [DATE]: Your Lesson Here
+What went wrong, what you learned, what you changed.
 ```
 
 ### **3. Extract Incrementally**
 Don't wait until project is "done" — extract as you go.
 
-### **4. Share Publicly**
+**Schedule extraction sessions:**
+- **End of each week:** Extract 1-2 completed patterns
+- **End of each month:** Review and update existing templates
+- **End of each project:** Major extraction and documentation
+
+### **4. Share Publicly (Build Your Reputation)**
 Your multi-agent system is publication-worthy.
-- GitHub repo with ⭐ stars
-- Dev.to blog post
-- LinkedIn showcase
-- Academic paper (if research-focused)
+
+**Platforms to share:**
+- **GitHub:** Open source your coordination system (⭐ stars, citations)
+- **Dev.to:** "How I Coordinate 3 AI Agents on One Codebase"
+- **LinkedIn:** Showcase documentation excellence (builds professional brand)
+- **Medium:** Long-form article on documentation-driven development
+- **YouTube:** Screen recording of multi-agent workflow
+- **Academic:** Submit to conferences (ICSE, ICSME) or journals
+- **Twitter/X:** Thread about your system (tag @AnthropicAI, @OpenAI, etc.)
+
+**Benefits:**
+- Portfolio showcase for job/consulting opportunities
+- Citations and credibility in AI/automation space
+- Networking with other practitioners
+- Potential consulting leads
+- Contribution to open source community
+
+### **5. Sync Across Your Machines (iCloud)**
+Your templates are already in iCloud — access from anywhere:
+```
+MacBook Pro (M4) → iCloud → Other Macs → iPhone/iPad (read-only)
+```
+
+**Bonus: OpenClaw Integration**
+```bash
+# Access templates from OpenClaw agents
+~/.openclaw/skills/project-starter/
+└── link to ~/Library/Mobile Documents/com~apple~CloudDocs/Templates/
+```
+
+### **6. Automate Template Usage**
+```bash
+# Create ~/bin/new-ai-project script
+cat > ~/bin/new-ai-project << 'EOF'
+#!/bin/zsh
+# Usage: new-ai-project <project-name>
+
+PROJECT_NAME=$1
+TEMPLATE_DIR=~/Library/Mobile\ Documents/com~apple~CloudDocs/Templates/AI-Project-Starter
+
+if [ -z "$PROJECT_NAME" ]; then
+  echo "Usage: new-ai-project <project-name>"
+  exit 1
+fi
+
+# Copy template
+cp -r "$TEMPLATE_DIR" "$HOME/$PROJECT_NAME"
+cd "$HOME/$PROJECT_NAME"
+
+# Replace placeholders
+find . -type f -name "*.md" -exec sed -i '' "s/{{PROJECT_NAME}}/$PROJECT_NAME/g" {} +
+find . -type f -name "*.json" -exec sed -i '' "s/{{PROJECT_NAME}}/$PROJECT_NAME/g" {} +
+
+# Initialize git
+git init
+git add .
+git commit -m "Initial commit from AI-Project-Starter template
+
+Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
+
+echo "✅ Project $PROJECT_NAME created successfully!"
+echo "📂 Location: $HOME/$PROJECT_NAME"
+echo "🚀 Next: cd $PROJECT_NAME && bun install"
+EOF
+
+chmod +x ~/bin/new-ai-project
+
+# Now just run:
+# new-ai-project my-awesome-project
+```
 
 ---
 
@@ -341,11 +534,11 @@ Your multi-agent system is publication-worthy.
 
 ```
 ┌──────────────────────────────────────────┐
-│ 1. Extract principles, not just code    │
-│ 2. Document patterns for future you     │
-│ 3. Template everything                  │
+│ 1. Extract principles, not just code     │
+│ 2. Document patterns for future you      │
+│ 3. Template everything                   │
 │ 4. Version your templates                │
-│ 5. Share publicly (build reputation)    │
+│ 5. Share publicly (build reputation)     │
 └──────────────────────────────────────────┘
 ```
 

@@ -1,0 +1,16 @@
+# Best Buy Evidence Table (Appendix)
+
+| claim_id | claim | value/date | source_url | status(VERIFIED/HYPOTHESIS) | where_used(slide/email) |
+|---|---|---|---|---|---|
+| `C-01` | Basel e-waste amendments entered into force and expanded PIC controls for transboundary e-waste (A1181, Y49). | Effective date: `2025-01-01` | https://www.basel.int/Implementation/Ewaste/EwasteAmendments/EwasteAmendmentsFAQs/tabid/10107/Default.aspx | `VERIFIED` | `bestbuy_evidence_gist.md` -> What Is True Today; `bestbuy_talk_track.md` -> Compliance reality |
+| `C-02` | RPRA electronics recovery rate requirement. | `65%` (updated `2026-01-30`) | https://rpra.ca/public-reports/resource-recovery-reports/supply-and-recovery-of-electronics-in-ontario/ | `VERIFIED` | `bestbuy_evidence_gist.md` -> What Is True Today |
+| `C-03` | RPRA electronics actual recovery rate. | `66%` (updated `2026-01-30`) | https://rpra.ca/public-reports/resource-recovery-reports/supply-and-recovery-of-electronics-in-ontario/ | `VERIFIED` | `bestbuy_evidence_gist.md` -> What Is True Today |
+| `C-04` | RPRA electronics actual tonnes recovered. | `41,579` (updated `2026-01-30`) | https://rpra.ca/public-reports/resource-recovery-reports/supply-and-recovery-of-electronics-in-ontario/ | `VERIFIED` | `bestbuy_evidence_gist.md` -> What Is True Today |
+| `C-05` | Best Buy operational emissions reduction goal. | `75%` reduction vs 2009 baseline | https://www.bestbuy.ca/en-ca/about/commitment-to-environment/blt6cddfa55b0e75186 | `VERIFIED` | `bestbuy_evidence_gist.md` -> What Is True Today |
+| `C-06` | Best Buy carbon neutrality target. | `2040` | https://www.bestbuy.ca/en-ca/about/commitment-to-environment/blt6cddfa55b0e75186 | `VERIFIED` | `bestbuy_evidence_gist.md` -> What Is True Today |
+| `C-07` | Best Buy customer emissions reduction target. | `20% by 2030` vs 2017 baseline | https://www.bestbuy.ca/en-ca/about/commitment-to-environment/blt6cddfa55b0e75186 | `VERIFIED` | `bestbuy_evidence_gist.md` -> What Is True Today |
+| `C-08` | Best Buy policy: customers should remove personal data; Geek Squad may charge to help; Best Buy not liable for residual data. | Policy statements on recycling page | https://www.bestbuy.ca/en-ca/help/haul-away-and-recycling/battery-and-electronic-recycling-program | `VERIFIED` | `bestbuy_evidence_gist.md` -> What Is True Today |
+| `C-09` | ECCC permit application is required before shipping for controlled cross-border hazardous waste/recyclables. | Regulatory requirement (current page) | https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/cross-border-regulations.html | `VERIFIED` | `bestbuy_evidence_gist.md` -> What Is True Today |
+| `H-01` | Nigeria-side section-level citations are fully packaged for every operational control. | Pending citation package | Internal evidence gap tracker | `HYPOTHESIS` | `bestbuy_evidence_gist.md` -> Known Unknowns |
+| `H-02` | Pilot financial upside ranges are validated. | Pending discovery data | Internal evidence gap tracker | `HYPOTHESIS` | `bestbuy_evidence_gist.md` -> Known Unknowns; `bestbuy_talk_track.md` -> KPI dashboard |
+| `H-03` | Final category scope is locked without stakeholder review. | Pending Green Team + Ops + Compliance/Legal review | Internal governance decision | `HYPOTHESIS` | `bestbuy_evidence_gist.md` -> Known Unknowns |
